@@ -1,0 +1,238 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.image-background {
+  position: relative;
+  overflow: scroll;
+  filter: brightness(0.6); /* làm cho ảnh tối hơn*/
+}
+#banner {
+  position: absolute;
+  bottom: 75%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+#banner h1 {
+  font-size: 36px;
+  color: #f7f7f7;
+  margin-bottom: 12px;
+}
+#banner span {
+  color: #d6d6d6f1;
+  margin-left: 56px;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+.container-fluid {
+  padding: 0 20% 0 20%;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+.table {
+  border-collapse: collapse;
+  height: 350px;
+}
+#nav-bar {
+  text-align: center;
+}
+#nav-bar span {
+  position: relative;
+  padding: 0 100px;
+}
+#nav-bar img {
+  display: inline-block;
+  position: absolute;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 8px solid white;
+  transform: translate(-50%, -50%);
+}
+#nav-bar nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+#nav-bar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  padding: 37px 0;
+}
+.icon-twitter,
+.icon-facebook,
+.icon-gplus,
+.icon-linkedin {
+  color: #199cdb;
+  font-size: 14px;
+  display: inline-block;
+  padding: 24px 0;
+}
+.icon-star-1,
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt {
+  color: #199cdb;
+}
+#about {
+  padding-top: 50px;
+}
+.container-hobby i {
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid #63e6be;
+  border-radius: 50%;
+}
+.prominent {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background-color: #74c0fc;
+}
+#prominent {
+  padding: 2px 12px;
+  border-radius: 10px;
+  background-color: #74c0fc;
+  text-transform: italic;
+}
+.hobby {
+  font-size: 10px;
+}
+.skill .-blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.skill .-blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 1.5px;
+  margin-right: 10px;
+  width: 45px;
+}
+.skill .--blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+}
+.skill .-grey {
+  background: #ced4da;
+  display: inline-block;
+  height: 1.5px;
+  margin-right: 10px;
+  width: 45px;
+}
+.skill .--grey {
+  background: #ced4da;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+}
+.circle-list li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #199cdb;
+  margin-right: -8px;
+  transform: translateX(-28px);
+}
+.circle-list {
+  list-style-type: none;
+}
+.ex {
+  display: grid;
+  grid-template-columns: 0.75fr 0.25fr;
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+.container-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 60px; */
+  margin-left: 350px;
+  margin-right: 350px;
+}
+.container-img-1 {
+  display: flex;
+  padding: 0px 0 30px 0;
+  border-bottom: 1px solid #d6c08d;
+}
+.img-3 {
+  border-bottom: none;
+  margin-top: 30px;
+}
+.img-2 img {
+  border-left: 1px solid #d6c08d;
+  padding-left: 12px;
+}
+#project a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 2px 0 1px rgba(150, 150, 150, 0.2);
+  color: #000;
+}
+
+#project a:hover {
+  transform: translatey(-5px);
+  color: #000;
+}
+#footer {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 24px 0;
+  border: none;
+  gap: 24px;
+  background-color: #f7f7f7;
+}
+#footer a {
+  text-decoration: none;
+}
+/* PROJECT CHARTER */
+.bg-icon {
+  background-color: #972bc9;
+}
+
+.bb {
+  border-bottom: 1px dotted rgb(7, 187, 103);
+}
+
+/* link trở về trang digital-cv */
+.digital-cv {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.digital-cv:hover {
+  border: 2px solid #2929da;
+}
+
+/* NGOÀI LỀ */
+/* tạo box-shadow cho các khối */
+.cv,
+.kn {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* tạo hiệu ứng cho khối dự án */
+.cv:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s ease-in;
+}

@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+  #nav-bar nav {
+    flex-direction: column;
+    align-items: flex-start !important;
+    height: auto;
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 30px !important;
+  }
+  #nav-bar nav a {
+    margin: 0 !important;
+    text-decoration: None;
+    color: black;
+  }
+  .container-fluid {
+    padding: 0 3% 0 3%;
+  }
+  #nav-bar span {
+    display: none;
+  }
+  #nav-bar img {
+    display: none;
+  }
+  .container-hobby {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container-hobby i {
+    margin-bottom: 16px;
+    padding: 24px;
+    border: 1px solid #63e6be;
+    border-radius: 50%;
+  }
+  .hobby {
+    width: 100px;
+    font-size: larger;
+  }
+  .img-2 img,
+  .img-2-2 {
+    border-left: none;
+    padding-left: none;
+  }
+  #project h2 {
+    padding-bottom: 30px;
+  }
+  .container-project {
+    width: 450px;
+    margin-left: 10px;
+  }
+  .s-d-flex {
+    flex-direction: column;
+    align-items: flex-start !important;
+    padding-left: 30px;
+  }
+}
